@@ -1,0 +1,180 @@
+/* Desktop and table screen optimization */
+
+/*Xlarge screens*/
+@media only screen
+and (min-device-width : 1824px) {
+	#show-photo {
+		height: 60%;
+	}
+
+	#footer {
+		height: 28%;
+	}
+}
+
+/*tablet iPad Pro*/
+@media only screen
+and (max-device-width: 1366px)
+and (min-device-width: 1024px) {
+	#logo {
+		display: block;
+		width: 320%;
+	}
+
+	button#signin {
+		display: block;
+		font-size: 24px !important;
+		padding: 10px 0px;
+		width: 100%;
+	}
+
+	#show-photo {
+		height: 74%;
+	}
+
+	#show-photo img.photo {
+		height: 100%;
+		width: auto;
+	}
+
+	#description {
+		font-size: 3em;
+	}
+
+	#footer {
+		height: 14%;
+		min-height: unset;
+	}
+	
+	.row.col-sm-11.col-md-12.vcenter {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+
+	div#footer div.col-md-2 {
+		padding: 6px !important;
+	}
+}
+
+/*tablet iPad Pro landscape*/
+@media only screen
+and (max-device-width: 1366px)
+and (min-device-width: 1024px)
+and (orientation : landscape) {
+	#logo {
+		display: block;
+		width: 180%;
+	}
+
+	button#signin {
+		font-size: 18px !important;
+		width: 70%;
+	}
+
+	#show-photo img.photo {
+		height: auto;
+		width: 100%;
+	}
+
+	#footer {
+		height: 22%;
+		min-height: unset;
+	}
+}
+
+/*tablet*/
+@media only screen
+and (max-device-width: 1023px)
+and (min-device-width: 768px) {
+	#logo {
+		display: block;
+		width: 70%;
+	}
+
+	button#signin {
+		display: block;
+		font-size: 20px !important;
+		padding: 10px 0px;
+		width: 80%;
+	}
+
+	#main-menu {
+		height: 12%;
+		min-height: unset;
+	}
+
+	#show-photo {
+		height: 74%;
+	}
+
+	#show-photo img.photo {
+		height: 100%;
+		width: auto;
+	}
+
+	#footer {
+		height: 18%;
+		min-height: unset;
+	}
+
+	.col-sm-11 {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+
+	div#footer div.col-md-2 {
+		padding: 6px !important;
+	}
+
+	.glyphicon-chevron-right {
+		margin-left: -8px;
+	}
+
+	.glyphicon-chevron-left {
+		margin-left: -12px;
+	}
+}
+
+/*tablet landscape*/
+@media only screen
+and (max-device-width: 1024px)
+and (min-device-width: 768px)
+and (orientation : landscape) {
+	#logo {
+		display: block;
+		width: 210%;
+	}
+
+	button#signin {
+		font-size: 14px !important;
+		float: right;
+		width: 80%;
+	}
+
+	#show-photo {
+		height: 66%;
+	}
+
+	#show-photo img.photo {
+		height: auto;
+		width: 100%;
+	}
+	
+	#description {
+		font-size: 2em;
+	}
+
+	#footer {
+		height: 22%;
+		min-height: unset;
+	}
+
+	.col-sm-11 {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+
+	div#footer div.col-md-2 {
+		padding: 6px !important;
+	}
+}

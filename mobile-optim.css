@@ -1,0 +1,138 @@
+/* Mobile screen optimization */
+
+@media only screen
+and (max-device-width: 767px) {
+	#logo {
+		display: block;
+		margin-left: -15px;
+		width: 110%;
+	}
+
+	button#signin {
+		display: block;
+		font-size: 14px;
+		padding: 6px 0px;
+		width: 100%;
+	}
+
+	#main-menu {
+		height: 10%;
+		min-height: unset;
+	}
+
+	#show-photo {
+		height: 74%;
+		top: 10%;
+	}
+
+	#show-photo img.photo {
+		height: 100%;
+		width: auto;
+	}
+
+	#description {
+		top: 40%;
+	}
+
+	#footer {
+		height: 16%;
+		min-height: unset;
+	}
+
+	.col-sm-11 {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+
+	div#footer div.col-md-2 {
+		padding: 4px !important;
+	}
+
+	div.col-md-2 div.caption{
+		padding: 0px;
+	}
+
+	div.caption h4{
+		font-size: 14px;
+	}
+
+	.md-48 {
+		font-size: 2em;
+		margin-top: -20px;
+	}
+
+	.glyphicon-chevron-right {
+		margin-left: -10px;
+	}
+
+	.glyphicon-chevron-left {
+		margin-left: -16px;
+	}
+}
+
+/*mobile landscape*/
+@media only screen
+and (max-device-width: 767px)
+and (orientation : landscape) {
+	#logo{
+		width: 60%;
+		float: left;
+	}
+
+	button#signin{
+		display: block;
+		float: right;
+		font-size: 14px;
+		padding: 8px 0px;
+		width: 50%;
+	}
+
+	#main-menu {
+		height: 14%;
+		width: 100%;
+		position: absolute;
+	}
+
+	#show-photo {
+		height: 100%;		
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	#show-photo img.photo {
+		height: auto;
+		width: 100%;
+	}
+
+	#description {
+		display: block;
+		left: 25%;
+		width: 75%;
+	}
+
+	#footer {
+		background-color: rgba(153,204,255,.6);
+		height: 86%;
+		min-height: unset;
+		width: 24%;
+		padding-top: 2%;
+	}
+
+	div.row div.col-xs-3 {
+		display: block;
+		float: unset !important;
+	}
+
+    #footer div.hcenter {
+    	display: block;
+    }
+
+    .col-xs-3.col-sm-3.col-md-2.option {
+    	width: 100%;
+	}
+
+	.md-48 {
+		font-size: 0em;
+	}
+}

@@ -1,0 +1,91 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.vcenter {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hcenter {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#main-menu {
+	background-color: #99ccff;
+	height: 12%;
+	left: 0px;
+	min-height: 100px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 99;
+}
+
+#logo{
+	display: block;
+	height: auto;
+	width: 120%;
+}
+
+button#signin{
+	float: right;
+	font-size: 18px;
+	padding: 8px 0px;
+	width: 50%;
+}
+
+#show-photo {
+	background-color: #F5F5F5;
+	height: 64%;
+	left: 0px;
+	padding: 0px;
+	position: fixed;
+	text-align: center;
+	top: 12%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+#description {
+	color: #808080;
+	font-size: 2em;
+	position: relative;
+	top: 48%;
+}
+
+#footer {
+	background-color: #99ccff;
+	bottom: 0px;
+	min-height: 210px;
+	height: 24%;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+
+.md-48 {
+	font-size: 3em;
+	margin-top: -20px;
+}
+
+#footer .col-md-2 img {
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#footer .col-md-2 img:hover {
+	transform: scale(1.05);
+}
+
+.photo {
+	height: auto;
+	width: 100%;
+}

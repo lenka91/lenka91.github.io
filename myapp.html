@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My App</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="myapp.css">
+	<!-- Custom CSS optimization: desktop and tablet+landscape -->
+	<link rel="stylesheet" type="text/css" href="desktop-tablet-optim.css">
+	<!-- Custom CSS optimization: mobile+landscape -->
+	<link rel="stylesheet" type="text/css" href="mobile-optim.css">
+	<!-- metatag for Bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap - Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Custom JS -->
+	<script type="text/javascript" src="app.js"></script>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Bootstrap - Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid" id="main-menu">
+		<div class="row vcenter">
+			<div class="hcenter">
+				<div class="col-xs-4 col-sm-4 col-md-1">
+					<img src="photo/logo.png" alt="logo" id="logo">
+				</div>
+				<div class="col-xs-4 col-xs-offset-3 col-sm-3 col-sm-offset-4 col-md-2 col-md-offset-7">
+					<button type="button" class="btn btn-default btn-block" id="signin">Sign In</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" id="show-photo">
+				<span id="description">Display photo here, when clicked below</span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="footer">
+		<div class="row col-sm-11 col-md-12 vcenter">
+			<div class="hcenter">
+				<div class="col-xs-1 col-sm-1 col-md-offset-1 col-md-1">
+					<span class="glyphicon glyphicon-chevron-left md-48"></span>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-2 option">
+					<span id="putImg1"></span>
+					<div class="caption">
+						<h4>Photo #1</h4>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-2 option">
+					<span id="putImg2"></span>
+					<div class="caption">
+						<h4>Photo #2</h4>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-2 option">
+					<span id="putImg3"></span>
+					<div class="caption">
+						<h4>Photo #3</h4>
+					</div>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-2 option">
+					<span id="putImg4"></span>
+					<div class="caption">
+						<h4>Photo #4</h4>
+					</div>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1">
+					<span class="glyphicon glyphicon-chevron-right md-48"></span>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-1"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

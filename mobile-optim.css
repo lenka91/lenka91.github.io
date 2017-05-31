@@ -101,7 +101,6 @@ and (orientation : landscape) {
 	}
 
 	#show-photo img.photo {
-		height: auto;
 		width: 100%;
 	}
 
@@ -117,6 +116,7 @@ and (orientation : landscape) {
 		min-height: unset;
 		width: 24%;
 		padding-top: 2%;
+		position: absolute;
 	}
 
 	div.row div.col-xs-3 {
